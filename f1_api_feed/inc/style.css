@@ -1,0 +1,15 @@
+.f1-api-feed__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.f1-api-feed__block {
+	padding: 1rem;
+	flex-basis: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+	.f1-api-feed__block {
+		flex-basis: 50%;
+	}
+}
